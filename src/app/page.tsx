@@ -2,18 +2,26 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f1ea] text-black">
       <section className="min-h-screen px-6 md:px-12 lg:px-20 py-8 flex flex-col">
-        <header className="flex items-center justify-between text-sm tracking-[0.2em] uppercase">
-          <div className="font-medium text-lg tracking-[0.08em]">
-            OUNIQE_
-          </div>
+<header className="flex items-center justify-between">
+  <div className="flex items-center gap-3">
+    <img
+      src="/Avatar Silloutte.png"
+      alt="OUNIQE silhouette"
+      className="w-12 h-12 object-contain"
+    />
 
-          <nav className="hidden md:flex gap-8">
-            <a href="#journal">Journal</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#objects">Objects</a>
-            <a href="#about">About</a>
-          </nav>
-        </header>
+    <div className="font-medium text-lg tracking-[0.08em]">
+      OUNIQE_
+    </div>
+  </div>
+
+  <nav className="hidden md:flex gap-8">
+    <a href="#journal">Journal</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#objects">Objects</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
 
         <div className="flex-1 flex flex-col justify-center max-w-5xl">
           <p className="text-xs md:text-sm tracking-[0.3em] uppercase mb-6">
@@ -53,14 +61,20 @@ export default function Home() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          <article>
-            <div className="aspect-[4/3] bg-black/10 mb-5" />
-            <p className="text-xs uppercase tracking-[0.2em] mb-2">
-              Travel · September 2026
-            </p>
-            <h3 className="text-2xl">A Weekend Somewhere Different</h3>
-          </article>
-
+          <a
+  href="/journal/weekend-somewhere-different"
+  className="block"
+>
+  <img
+  src="/SavannahOlde Pink House.jpeg"
+  alt="Savannah weekend"
+  className="w-full aspect-[4/3] object-cover mb-5"
+/>
+  <p className="text-xs uppercase tracking-[0.2em] mb-2">
+    Travel · July 2026
+  </p>
+  <h3 className="text-2xl">A Weekend Somewhere Different</h3>
+</a>
           <article>
             <div className="aspect-[4/3] bg-black/10 mb-5" />
             <p className="text-xs uppercase tracking-[0.2em] mb-2">
