@@ -169,14 +169,28 @@ export default function Home() {
       </section>
 
       <footer className="px-6 md:px-12 lg:px-20 py-10 border-t border-black/15 flex flex-col md:flex-row gap-5 justify-between text-xs uppercase tracking-[0.2em]">
-        <span>© 2026 Ouniqe_</span>
+  <span>© 2026 Ouniqe_</span>
 
-        <div className="flex gap-6">
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Contact</a>
-        </div>
-      </footer>
+  <div className="flex gap-6">
+    <a
+      href="https://www.instagram.com/ouniqe_"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Instagram
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/raymdelacruz"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      LinkedIn
+    </a>
+
+    <a href="#">Contact</a>
+  </div>
+</footer>
     </main>
   );
 }
